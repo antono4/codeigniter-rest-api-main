@@ -1,85 +1,74 @@
-<!-- README ini dihasilkan otomatis oleh .github/workflows/generate-readme.yml -->
-<!-- Jangan edit manual: perubahan akan ditimpa pada run berikutnya. -->
+<!-- README ini dihasilkan otomatis oleh workflow .github/workflows/generate-readme.yml -->
+<!-- Jangan edit manual; perubahan akan ditim pada run berikutnya. -->
 
-<h1 align="center">codeigniter-rest-api-main 👋</h1>
+<h1 align="center">Project 👋</h1>
 
 <p align="center">
-  <em>🤖 AI project - Codeigniter Rest Api Main</em>
+  <strong></strong>
 </p>
 
 <p align="center">
   <a href="https://github.com/antono4/codeigniter-rest-api-main"><img alt="GitHub repo" src="https://img.shields.io/badge/GitHub-antono4/codeigniter-rest-api-main-blue?logo=github"></a>
-  <img alt="Files" src="https://img.shields.io/badge/Files-16-informational">
-  <img alt="Last commit" src="https://img.shields.io/github/last-commit/antono4/codeigniter-rest-api-main">
+  <a href="https://antono4.github.io/codeigniter-rest-api-main/"><img alt="Live Demo" src="https://img.shields.io/badge/Live%20Demo-Online-success?logo=githubpages"></a>
+  <img alt="Files" src="https://img.shields.io/badge/Files-19-informational">
+  <img alt="Updated" src="https://img.shields.io/badge/Updated-2026-09-18 07:18:59 WIB-lightgrey">
 </p>
 
 ---
 
 ## 📖 Tentang
 
-Repository **`codeigniter-rest-api-main`** adalah proyek PHP yang dibangun dengan HTML, PHP.
-GitHub Pages belum diaktifkan untuk repository ini.
+Repository **`codeigniter-rest-api-main`** adalah situs web pribadi / portofolio yang diterbitkan melalui **GitHub Pages**. Situs utama berada di [`https://antono4.github.io/codeigniter-rest-api-main/`](https://antono4.github.io/codeigniter-rest-api-main/).
 
 ## 🗂️ Struktur Proyek
 
 ```
 codeigniter-rest-api-main/
-.env.example
-.gitattributes
-.github/
-  workflows/
-.gitignore
-LICENSE
-composer.json
-composer.lock
-phpunit.xml.dist
-preload.php
-public.zip
-spark
-writable/
-  cache/
-  index.html
-  logs/
-  session/
-  uploads/
+├── index.html          # Halaman utama (landing / portofolio)
+├── assets/             # Aset statis (css, js, img, vendor)
+├── forms/               # Form handler (PHP)
+└── writable/              # 403 Forbidden  ->  https://antono4.github.io/codeigniter-rest-api-main/writable/
 ```
 
 ## 🌐 Sub-Proyek / Demo
 
-Repository ini juga memuat sub-proyek (masing-masing punya `index.html` tersendiri):
+Situs ini juga memuat beberapa sub-proyek (masing-masing punya `index.html` tersendiri):
 
-| Folder | Keterangan |
-|--------|-----------|
-| [`writable`](./writable) | 403 Forbidden |
+| Folder | Demo Live | Keterangan |
+|--------|-----------|-----------|
+| [`writable`](./writable) | [https://antono4.github.io/codeigniter-rest-api-main/writable/](https://antono4.github.io/codeigniter-rest-api-main/writable/) | 403 Forbidden |
 
 ## 🛠️ Teknologi
 
-Berdasarkan ekstensi berkas yang terdeteksi di repository:
+Berdasarkan isi repository, proyek ini menggunakan:
 
 - `HTML`
 - `PHP`
 
-> Total **16 berkas** di repository (di luar `.git`, `node_modules`, `dist`, dan `build`).
+> Total **19 file** terdeteksi di repository.
 
 ## 🚀 Menjalankan Secara Lokal
 
-Butuh PHP dan Composer:
+Karena ini situs statis (HTML/CSS/JS/PHP), cukup buka `index.html` di browser, atau jalankan server lokal:
 
 ```bash
-composer install
-php spark serve
-# atau
-php -S localhost:8000 -t public
+# Tanpa dependency
+python3 -m http.server 8000
+# lalu buka http://localhost:8000
+
+# atau dengan PHP (untuk form handler di forms/)
+php -S localhost:8000
 ```
 
 ## 📬 Kontak
 
 - GitHub: [antono4](https://github.com/antono4)
+- Situs: [https://antono4.github.io/codeigniter-rest-api-main/](https://antono4.github.io/codeigniter-rest-api-main/)
 
 ## 📄 Lisensi
 
-Proyek ini dilisensikan di bawah MIT License — lihat berkas [`LICENSE`](./LICENSE).
+Lihat berkas [`LICENSE`](./LICENSE) untuk informasi lisensi.
 
 ---
 
-<sub>README ini di-generate otomatis oleh GitHub Actions `.github/workflows/generate-readme.yml`.</sub>
+<sub>README ini di-generate otomatis pada **2026-09-18 07:18:59 WIB** oleh GitHub Actions `.github/workflows/generate-readme.yml`.</sub>
