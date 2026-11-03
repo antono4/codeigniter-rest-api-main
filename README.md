@@ -1,1 +1,31 @@
-Last updated: 2026-11-04 04:48:12 WIB
+# codeigniter-rest-api-main
+
+
+
+## 📋 Overview
+
+This repository contains **22 files** and is built with the following technologies:
+
+PHP
+
+## 🚀 Quick Start
+
+```bash
+php -S localhost:8000
+```
+
+## ✨ Features
+
+- 🔧 Environment config included
+- 📝 Auto-generated documentation
+
+## 🛠️ Technologies
+
+PHP
+
+## 📄 License
+
+MIT License
+
+---
+*Last updated: 2026-11-04 06:42:45 WIB*
